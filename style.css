@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background: black;
+    color: white;
+
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    overflow: hidden;
+
+    font-family: 'Press Start 2P', cursive;
+}
+
+.card {
+    text-align: center;
+
+    width: 800px;
+
+    z-index: 10;
+}
+
+.line {
+    font-size: 20px;
+    line-height: 2;
+    margin: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    font-family: inherit;
+
+    background: hotpink;
+    color: white;
+
+    border: none;
+
+    padding: 18px 40px;
+
+    margin: 20px;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    font-size: 18px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#flower-container {
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+}
