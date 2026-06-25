@@ -77,7 +77,7 @@ function pageThree() {
         </p>
 
         <p class="line" id="con1">
-        1. Allegedly seeing your name pop up on my phone makes me sometimes...
+        1. Allegedly seeing your name pop up on my phone makes me smile sometimes...
         </p>
 
         <p class="line hidden" id="con2">
